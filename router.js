@@ -3,7 +3,7 @@ const router = express.Router();
 router.get("/", (req, res) => {
     console.log("### GET /");
     res.render("index", {
-        title: "todolist 서비스 v2.0",
+        title: "todolist 서비스 v3.0",
         subtitle: "(node.js + express + lokijs)",
     });
 });
